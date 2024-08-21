@@ -13,9 +13,9 @@ import Img4 from "../assets/electric.jpg";
 
 const Home = () => {
   return (
-    <div>
+    <div className='w-[screen]'>
       <div>
-        <div className='relative h-[670px]'>
+        <div className='w-[screen] relative h-[670px]'>
           <img src={Slide4} alt=""  className='h-[655px] w-full object-cover absolute' />
         </div>
         {/* content */}
@@ -33,13 +33,13 @@ const Home = () => {
         </div>
 
         {/* goals */}
-        <div className='bg-gray-200'>
+        <div className='bg-gray-200 '>
           <div>
             <div className='mx-auto overflow-hidden md:max-w-6xl'>
                 <div className='grid grid-cols-2'>
                   <div className='p-8 flex'>
                     <div className=''>
-                      <GoGoal size={100}/>
+                      <GoGoal size={100} className='w-md'/>
                     </div>
                       <div className='px-7 py-2'>
                         <h1 className='uppercase font-semibold text-2xl'>OUR VISION</h1>
@@ -48,7 +48,7 @@ const Home = () => {
                   </div>
                   <div className='p-8 flex'>
                     <div>
-                      <GoRocket size={100}/>
+                      <GoRocket size={100} className='w-md'/>
                     </div>
                       <div className='px-7 py-2'>
                         <h1 className='uppercase font-semibold text-2xl'>OUR MISSION</h1>
@@ -57,7 +57,7 @@ const Home = () => {
                   </div>
                   <div className='p-8 flex'>
                     <div>
-                      <GoTrophy size={100}/>
+                      <GoTrophy size={100} className='w-md'/>
                     </div>
                       <div className='px-8 py-2'>
                         <h1 className='uppercase font-semibold text-2xl'>OUR GOAL</h1>
@@ -66,7 +66,7 @@ const Home = () => {
                   </div>
                   <div className='p-8 flex'>
                     <div>
-                      <RiLightbulbFlashLine size={100}/>
+                      <RiLightbulbFlashLine size={100} className='w-md'/>
                     </div>
                       <div className='px-8 py-2'>
                         <h1 className='uppercase font-semibold text-2xl'>OUR PHILOSOPHY</h1>
@@ -78,7 +78,7 @@ const Home = () => {
           </div>
         </div>
         {/* Banner*/}
-        <div className='mb-6'>
+        <div className='w-[screen]'>
           <div className='grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0'>
             <div className='container flex flex-col justify-center text-center md:text-left space-y-8 lg:max-w-[800px]'>
               <h2 className='text-3xl justify-center'>PRE ENGINEERED BUILDINGS</h2>
@@ -92,12 +92,12 @@ const Home = () => {
               
             </div>
             <div>
-              <img src={Img1} alt="" className='w-[750px] md:max-w-[800px]  object-cover'/>
+              <img src={Img1} alt="" className='w-md  object-cover'/>
             </div>
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0'>
             <div className=''>
-                <img src={Img2} alt="" className='w-[760px] md:max-w-[800px]  object-cover'/>
+                <img src={Img2} alt="" className='w-md object-cover'/>
             </div>
             <div className='container flex flex-col justify-center text-center md:text-left space-y-8 lg:max-w-[800px]'>
               <h2 className='text-3xl justify-center uppercase'>mezzaine floor</h2>
@@ -124,12 +124,12 @@ const Home = () => {
               </div>
             </div>
             <div>
-              <img src={Img3} alt="" className='w-[750px] md:max-w-[800px]  object-cover'/>
+              <img src={Img3} alt="" className='w-md  object-cover'/>
             </div>
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0'>
+          <div className='grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 pb-7'>
             <div className=''>
-                <img src={Img4} alt="" className='w-[760px] md:max-w-[800px] h-[600px] object-cover'/>
+                <img src={Img4} alt="" className='w-md  object-cover'/>
             </div>
             <div className='container flex flex-col justify-center text-center md:text-left space-y-8 lg:max-w-[800px]'>
               <h2 className='text-3xl justify-center uppercase'>Electric Overhead 
