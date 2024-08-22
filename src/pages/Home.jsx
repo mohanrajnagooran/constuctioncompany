@@ -33,49 +33,47 @@ const Home = () => {
         </div>
 
         {/* goals */}
-        <div className='bg-gray-200 '>
-          <div>
-            <div className='mx-auto overflow-hidden md:max-w-6xl'>
-                <div className='grid grid-cols-2'>
-                  <div className='p-8 flex'>
-                    <div className=''>
-                      <GoGoal size={100} className='w-md'/>
-                    </div>
-                      <div className='px-7 py-2'>
-                        <h1 className='uppercase font-semibold text-2xl'>OUR VISION</h1>
-                        <p className='text-xl py-3'>Innovative solutions for a sustainable future.</p>
-                      </div>
+          <div className='bg-gray-200 p-10'>
+            <div className='container mx-auto bg-gray-200 p-8'>
+              <div className='grid lg:grid-cols-2 gap-8'>
+                <div className='flex gap-4'>
+                  <div className=''>
+                    <GoGoal size={100} className=''/>
                   </div>
-                  <div className='p-8 flex'>
-                    <div>
-                      <GoRocket size={100} className='w-md'/>
-                    </div>
-                      <div className='px-7 py-2'>
-                        <h1 className='uppercase font-semibold text-2xl'>OUR MISSION</h1>
-                        <p className='text-xl py-3'>Exceeding client expectations with excellence.</p>
-                      </div>
-                  </div>
-                  <div className='p-8 flex'>
-                    <div>
-                      <GoTrophy size={100} className='w-md'/>
-                    </div>
-                      <div className='px-8 py-2'>
-                        <h1 className='uppercase font-semibold text-2xl'>OUR GOAL</h1>
-                        <p className='text-xl py-3'>To meet all project timelines efficiently.</p>
-                      </div>
-                  </div>
-                  <div className='p-8 flex'>
-                    <div>
-                      <RiLightbulbFlashLine size={100} className='w-md'/>
-                    </div>
-                      <div className='px-8 py-2'>
-                        <h1 className='uppercase font-semibold text-2xl'>OUR PHILOSOPHY</h1>
-                        <p className='text-xl py-3'>Innovative thinking drives practical excellence.</p>
-                      </div>
+                  <div className=''>
+                    <h1 className='uppercase font-semibold text-2xl'>OUR VISION</h1>
+                    <p className='text-xl py-3'>Innovative solutions for a sustainable future.</p>
                   </div>
                 </div>
-            </div>  
-          </div>
+                <div className='flex gap-4'>
+                  <div className=''>
+                    <GoRocket size={100} className=''/>
+                  </div>
+                  <div className=''>
+                    <h1 className='uppercase font-semibold text-2xl'>OUR MISSION</h1>
+                    <p className='text-xl py-3'>Exceeding client expectations with excellence.</p>
+                  </div>
+                </div>
+                <div className='flex gap-4'>
+                  <div className=''>
+                    <GoTrophy size={100} className=''/>
+                  </div>
+                  <div className=''>
+                    <h1 className='uppercase font-semibold text-2xl'>OUR GOAL</h1>
+                    <p className='text-xl py-3'>To meet all project timelines efficiently.</p>
+                  </div>
+                </div>
+                <div className='flex'>
+                  <div className=''>
+                    <RiLightbulbFlashLine size={100} className=''/>
+                  </div>
+                  <div className=''>
+                    <h1 className='uppercase font-semibold text-2xl'>OUR PHILOSOPHY</h1>
+                    <p className='text-xl py-3'>Innovative thinking drives practical excellence.</p>
+                  </div>
+                </div>          
+              </div>
+            </div>
         </div>
         {/* Banner*/}
         <div className='w-[screen]'>
